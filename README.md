@@ -1,5 +1,7 @@
 # yii2-import
 
+Updated module which uses PHPOffice / PhpSpreadsheet
+
 Yii2-import is an extension for Yii Framework. It helps you transfer file into models. 
 Currently support Excel format only. But it's easily to extend to support your file.
 
