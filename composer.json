@@ -1,33 +1,35 @@
 {
-    "name": "lucasguo/yii2-import",
+    "name": "rikcage/yii2-import",
     "description": "Simple import module for yii2 framework",
     "keywords": ["import", "excel", "yii2"],
     "type": "yii2-extension",
-    "homepage": "https://github.com/lucasguo/yii2-import/",
+    "homepage": "https://github.com/rikcage/yii2-import/",
     "license": "BSD-3-Clause",
     "repositories":
     [
         {
             "type": "vcs",
-            "url": "https://github.com/lucasguo/yii2-import/"
+            "url": "https://github.com/rikcage/yii2-import/"
+        }
+    ],
+    "authors": [
+        {
+            "name": "lucasguo",
+            "email": "guoliubin@gmail.com"
+        },
+        {
+            "name": "Rik Cage",
+            "email": "rikcage@gmail.com",
+            "homepage": "https://github.com/rikcage/yii2-import"
         }
     ],
     "require": {
         "yiisoft/yii2": "*",
-		"phpoffice/phpexcel": "*"
+        "phpoffice/phpspreadsheet": "~1.2"
     },
-    "require-dev": {
-        "phpdocumentor/phpdocumentor": "2.*"
-    },
-    "authors": [
-        {
-          "name": "lucasguo",
-          "email": "guoliubin@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "lucasguo\\import\\": "src/"
+            "rikcage\\import\\": "src/"
         }
     }
 }

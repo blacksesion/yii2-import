@@ -2,10 +2,10 @@
 namespace lucasguo\import\generators;
 
 use lucasguo\import\components\Importer;
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\helpers\ArrayHelper;
 
-class ModelGenerator extends Object implements GeneratorInterface
+class ModelGenerator extends BaseObject implements GeneratorInterface
 {
 	public function generate(&$data, &$importer)
 	{

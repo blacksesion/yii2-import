@@ -1,9 +1,9 @@
 <?php
 namespace lucasguo\import\components;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class DataMapping extends Object
+class DataMapping extends BaseObject
 {
 	/**
 	 * Indicate whether this field is required, if true, this line in input file will be skip and not display after processed by consumer
