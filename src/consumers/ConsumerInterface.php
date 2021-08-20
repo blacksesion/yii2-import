@@ -1,7 +1,7 @@
 <?php
-namespace lucasguo\import\consumers;
+namespace rikcage\import\consumers;
 
-use lucasguo\import\components\Importer;
+use rikcage\import\components\Importer;
 
 interface ConsumerInterface
 {

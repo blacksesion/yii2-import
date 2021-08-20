@@ -1,5 +1,5 @@
 <?php
-namespace lucasguo\import\components;
+namespace rikcage\import\components;
 
 use yii\base\BaseObject;
 

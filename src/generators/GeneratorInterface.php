@@ -1,8 +1,8 @@
 <?php
-namespace lucasguo\import\generators;
+namespace rikcage\import\generators;
 
-use lucasguo\import\components\Importer;
-use lucasguo\import\consumers\ConsumerInterface;
+use rikcage\import\components\Importer;
+use rikcage\import\consumers\ConsumerInterface;
 
 interface GeneratorInterface
 {

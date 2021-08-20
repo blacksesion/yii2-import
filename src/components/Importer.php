@@ -1,13 +1,13 @@
 <?php
-namespace lucasguo\import\components;
+namespace rikcage\import\components;
 
 use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\web\UploadedFile;
-use lucasguo\import\components\DataMapping;
-use lucasguo\import\consumers\ExcelConsumer;
-use lucasguo\import\generators\ModelGenerator;
+use rikcage\import\components\DataMapping;
+use rikcage\import\consumers\ExcelConsumer;
+use rikcage\import\generators\ModelGenerator;
 use yii\base\InvalidCallException;
 use yii\helpers\ArrayHelper;
 

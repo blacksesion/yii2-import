@@ -1,9 +1,9 @@
 <?php
-namespace lucasguo\import\consumers;
+namespace rikcage\import\consumers;
 
 use yii\base\BaseObject;
-use lucasguo\import\exceptions\InvalidFileException;
-use lucasguo\import\components\Importer;
+use rikcage\import\exceptions\InvalidFileException;
+use rikcage\import\components\Importer;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Reader\BaseReader;

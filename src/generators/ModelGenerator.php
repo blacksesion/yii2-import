@@ -1,7 +1,7 @@
 <?php
-namespace lucasguo\import\generators;
+namespace rikcage\import\generators;
 
-use lucasguo\import\components\Importer;
+use rikcage\import\components\Importer;
 use yii\base\BaseObject;
 use yii\helpers\ArrayHelper;
 
