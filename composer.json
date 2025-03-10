@@ -1,5 +1,5 @@
 {
-    "name": "rikcage/yii2-import",
+    "name": "blacksesion/yii2-import",
     "description": "Simple import module for yii2 framework",
     "keywords": ["import", "excel", "yii2"],
     "type": "yii2-extension",
