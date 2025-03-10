@@ -1,9 +1,9 @@
 <?php
-namespace rikcage\import\consumers;
+namespace blacksesion\import\consumers;
 
 use yii\base\BaseObject;
-use rikcage\import\exceptions\InvalidFileException;
-use rikcage\import\components\Importer;
+use blacksesion\import\exceptions\InvalidFileException;
+use blacksesion\import\components\Importer;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Reader\BaseReader;

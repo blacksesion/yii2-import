@@ -1,35 +1,32 @@
 {
     "name": "blacksesion/yii2-import",
-    "description": "Simple import module for yii2 framework",
+    "description": "Simple import module for yii2 framework, updated for php >= 7.2",
     "keywords": ["import", "excel", "yii2"],
     "type": "yii2-extension",
-    "homepage": "https://github.com/rikcage/yii2-import/",
+    "homepage": "https://github.com/blacksesion/yii2-import/",
     "license": "BSD-3-Clause",
     "repositories":
     [
         {
             "type": "vcs",
-            "url": "https://github.com/rikcage/yii2-import/"
+            "url": "https://github.com/blacksesion/yii2-import/"
         }
     ],
     "authors": [
         {
-            "name": "lucasguo",
-            "email": "guoliubin@gmail.com"
-        },
-        {
-            "name": "Rik Cage",
-            "email": "rikcage@gmail.com",
-            "homepage": "https://github.com/rikcage/yii2-import"
+            "name": "blacksesion",
+            "email": "blacksesion@gmail.com",
+            "homepage": "https://github.com/blacksesion/yii2-import"
         }
     ],
     "require": {
+        "php": ">=7.2",
         "yiisoft/yii2": "*",
         "phpoffice/phpspreadsheet": "~1.2"
     },
     "autoload": {
         "psr-4": {
-            "rikcage\\import\\": "src/"
+            "blacksesion\\import\\": "src/"
         }
     }
 }

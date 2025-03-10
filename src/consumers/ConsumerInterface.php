@@ -1,7 +1,7 @@
 <?php
-namespace rikcage\import\consumers;
+namespace blacksesion\import\consumers;
 
-use rikcage\import\components\Importer;
+use blacksesion\import\components\Importer;
 
 interface ConsumerInterface
 {

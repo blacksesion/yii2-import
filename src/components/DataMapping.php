@@ -1,5 +1,5 @@
 <?php
-namespace rikcage\import\components;
+namespace blacksesion\import\components;
 
 use yii\base\BaseObject;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace rikcage\import\exceptions;
+namespace blacksesion\import\exceptions;
 
 /**
  * InvalidParamException represents an exception caused by passing a invalid file to Importer consumer.

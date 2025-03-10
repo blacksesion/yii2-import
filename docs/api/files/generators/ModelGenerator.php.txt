@@ -1,7 +1,7 @@
 <?php
-namespace lucasguo\import\generators;
+namespace blacksesion\import\generators;
 
-use lucasguo\import\components\Importer;
+use blacksesion\import\components\Importer;
 use yii\base\Object;
 use yii\helpers\ArrayHelper;
 

@@ -1,7 +1,7 @@
 <?php
-namespace lucasguo\import\consumers;
+namespace blacksesion\import\consumers;
 
-use lucasguo\import\components\Importer;
+use blacksesion\import\components\Importer;
 
 interface ConsumerInterface
 {

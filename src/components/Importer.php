@@ -1,13 +1,13 @@
 <?php
-namespace rikcage\import\components;
+namespace blacksesion\import\components;
 
 use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 use yii\web\UploadedFile;
-use rikcage\import\components\DataMapping;
-use rikcage\import\consumers\ExcelConsumer;
-use rikcage\import\generators\ModelGenerator;
+use blacksesion\import\components\DataMapping;
+use blacksesion\import\consumers\ExcelConsumer;
+use blacksesion\import\generators\ModelGenerator;
 use yii\base\InvalidCallException;
 use yii\helpers\ArrayHelper;
 

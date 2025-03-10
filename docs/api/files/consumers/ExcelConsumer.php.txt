@@ -1,9 +1,9 @@
 <?php
-namespace lucasguo\import\consumers;
+namespace blacksesion\import\consumers;
 
 use yii\base\Object;
-use lucasguo\import\exceptions\InvalidFileException;
-use lucasguo\import\components\Importer;
+use blacksesion\import\exceptions\InvalidFileException;
+use blacksesion\import\components\Importer;
 
 class ExcelConsumer extends Object implements ConsumerInterface
 {

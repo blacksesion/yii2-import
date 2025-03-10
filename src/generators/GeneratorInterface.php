@@ -1,8 +1,8 @@
 <?php
-namespace rikcage\import\generators;
+namespace blacksesion\import\generators;
 
-use rikcage\import\components\Importer;
-use rikcage\import\consumers\ConsumerInterface;
+use blacksesion\import\components\Importer;
+use blacksesion\import\consumers\ConsumerInterface;
 
 interface GeneratorInterface
 {

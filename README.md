@@ -10,11 +10,11 @@ Currently support Excel format only. But it's easily to extend to support your f
 You can use composer to install this extension by:
 - run
 ```
-$ php composer.phar require rikcage/yii2-import "*"
+$ php composer.phar require blacksesion/yii2-import "*"
 ```
 - or add
 ```
-"rikcage/yii2-import": "*"
+"blacksesion/yii2-import": "*"
 ```
 to your composer.json and then execute 'composer update'.
 
